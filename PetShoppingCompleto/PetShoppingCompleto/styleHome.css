@@ -1,0 +1,65 @@
+body {
+    background: rgb(107, 191, 115);
+    background: linear-gradient(346deg, rgba(107, 191, 115, 1) 41%, rgba(138, 196, 18, 1) 88%);
+}
+
+.linha1 {
+    /* Cor verde desejada */
+    padding: 20px;
+    /* Espaçamento interno */
+    margin-bottom: 20px;
+    /* Espaçamento inferior entre as linhas */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.linha2 {
+    /* Cor verde desejada */
+    padding: 20px;
+    /* Espaçamento interno */
+    margin-bottom: 20px;
+    /* Espaçamento inferior entre as linhas */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.pcards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+.tanhoCarroselDestaque {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .form-inline {
+        display: none;
+    }
+
+    .linha1 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .linha2 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+}

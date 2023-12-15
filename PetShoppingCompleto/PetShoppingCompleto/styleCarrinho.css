@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(107, 185, 115);
+}
+
+
+
+/* Reset de margens e preenchimentos para garantir consistência entre navegadores */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Garante que o corpo da página ocupe toda a altura visível da janela de visualização */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilos para o conteúdo principal da página */
+main {
+    flex: 1;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .form-inline {
+        display: none;
+    }
+
+    .linha1 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .linha2 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+}
